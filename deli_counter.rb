@@ -9,6 +9,6 @@ def line(array)
       guest_line.push("#{number} #{guest}")
       number +=1
     end
-    puts "The line is currently: #{guest_line.join} (" ")"
+    puts "The line is currently: #{guest_line.push} (" ")"
 end
 
