@@ -5,7 +5,7 @@ def line(array)
     #line with guest
     guest_line=[]
     number = 1
-    array.each. do |guest, number|
+    array.each. do |guest. number|
       guest_line.push("#{number} #{guest}")
       number +=1
     end
