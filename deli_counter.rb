@@ -1,4 +1,4 @@
-
+katz_deli = []
 
 def now_serving(line)
   if line.length == 0
