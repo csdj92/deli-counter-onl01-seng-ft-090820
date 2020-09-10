@@ -5,7 +5,7 @@ def line(line_number)
     #line with guest
     guest_line=[]
     name.each.with_index(1) do |guest, order|
-      
+      guest_line.push
     puts "The line is currently: #{guest_line}"
 end
 end
