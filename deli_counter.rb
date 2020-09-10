@@ -9,6 +9,7 @@ line_array = []
     end
     puts "The line is currently: #{line_array.join(" ")}"
   end
+end
 
 def now_serving(line)
   if line.length == 0
