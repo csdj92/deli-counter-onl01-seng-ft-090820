@@ -7,7 +7,7 @@ def line(array)
     guest = 1
     array.each. do |guest, order|
       guest_line.push("#{order}. #{guest}")
-    end
+    
     puts "The line is currently: #{guest_line.join} (" ")"
 end
 end
