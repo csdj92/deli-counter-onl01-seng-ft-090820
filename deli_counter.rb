@@ -1,3 +1,3 @@
 def line(que)
-  que=[]
+  puts ""
 end
