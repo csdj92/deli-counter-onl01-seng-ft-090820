@@ -13,7 +13,7 @@ end
 
 def now_serving(line)
   if line.length == 0
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!."
   else 
     #line with guest
     guest=line.shift
