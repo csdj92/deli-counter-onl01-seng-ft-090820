@@ -4,6 +4,7 @@ def line(line_number)
   else 
     #line with guest
     guest_line=[]
+    name.with.i
     puts "The line is currently: #{guest_line}"
 end
 end
