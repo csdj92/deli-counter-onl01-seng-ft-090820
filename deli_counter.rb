@@ -18,4 +18,4 @@ def now_serving(line)
     guest=line.shift
     puts "Currently serving #{guest}."
   end
-
+end
