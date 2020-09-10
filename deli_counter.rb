@@ -6,7 +6,7 @@ def line(array)
     guest_line=[]
     number = 1
     array.each. do |guest, number|
-      guest_line.push("#{guest}")
+      guest_line.push("#{number} #{guest}")
     end
     puts "The line is currently: #{guest_line.join} (" ")"
 end
