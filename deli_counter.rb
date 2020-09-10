@@ -1,7 +1,9 @@
 def line(line_number)
   if line_number = 0
     puts "The line is currently empty."
-  else line_number > 1
-    puts "The line is currently: #{line_number}"
+  else 
+    #line with guest
+    guest_line=[]
+    puts "The line is currently: #{guest_line}"
 end
 end
