@@ -1,3 +1,3 @@
 def line(que)
-  puts ""
+  puts "The line is currently empty."
 end
