@@ -1,4 +1,5 @@
 katz_deli = []
+
 def line(new_line)
 line_array = []
   if new_line.length == 0
@@ -20,3 +21,7 @@ def now_serving(line)
     puts "Currently serving #{guest}."
   end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  
