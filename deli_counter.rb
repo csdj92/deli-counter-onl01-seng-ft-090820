@@ -4,6 +4,7 @@ def line(array)
   else 
     #line with guest
     guest_line=[]
+    guest
     line_number.each.with_index(1) do |guest, order|
       guest_line.push("#{order}. #{guest}")
     end
