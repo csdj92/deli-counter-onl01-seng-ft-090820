@@ -4,7 +4,7 @@ def line(line_number)
   else 
     #line with guest
     guest_line=[]
-    number.each.with_index(1) do |guest, order|
+    line_number.each.with_index(1) do |guest, order|
       guest_line.push("#{order}. #{guest}")
     end
     puts "The line is currently: #{guest_line.join} (" ")"
