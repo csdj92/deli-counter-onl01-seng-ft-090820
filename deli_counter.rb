@@ -4,8 +4,8 @@ def line(array)
   else 
     #line with guest
     guest_line=[]
-    guest = 1
-    array.each. do |guest|
+    number = 1
+    array.each. do |guest, number|
       guest_line.push("#{guest}")
     end
     puts "The line is currently: #{guest_line.join} (" ")"
