@@ -11,4 +11,4 @@ def line(array)
     end
     puts "The line is currently: #{guest_line.join} (" ")"
 end
-end
+
