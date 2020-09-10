@@ -5,7 +5,7 @@ def line(array)
     #line with guest
     guest_line=[]
     guest = 1
-    line_number.each.with_index()do |guest, order|
+    array.each.with_index()do |guest, order|
       guest_line.push("#{order}. #{guest}")
     end
     puts "The line is currently: #{guest_line.join} (" ")"
